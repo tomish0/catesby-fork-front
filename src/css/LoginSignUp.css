@@ -1,0 +1,182 @@
+@font-face {
+  font-family: title-font;
+  src: adobe-caslon-pro, serif;
+}
+
+@font-face {
+  font-family: subtitle-font;
+  src: url("../fonts/HenriDidot.otf");
+}
+
+@font-face {
+  font-family: main-font;
+  src: url("../fonts/Montserrat-Light.ttf");
+}
+
+.login-container,
+.sign-up-container {
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 90vw;
+  margin: 0 auto;
+}
+
+.login-container h2,
+.sign-up-container h2 {
+  text-decoration: underline;
+}
+
+.login-container .login-sign-up-form,
+.sign-up-container .login-sign-up-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 90%;
+  font-size: 1.1em;
+  margin-top: 10px;
+}
+
+.login-container .login-sign-up-form > *,
+.sign-up-container .login-sign-up-form > * {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 5px auto;
+  width: 100%;
+  font-family: main-font;
+  border-radius: 3px;
+}
+
+.login-container .login-sign-up-form > * input,
+.sign-up-container .login-sign-up-form > * input {
+  border-radius: 5px;
+  border: none;
+  height: 1.5rem;
+  outline: none;
+  width: 65%;
+  padding: 5px;
+}
+
+.login-container .login-sign-up-form > * .fail-input-highlight,
+.sign-up-container .login-sign-up-form > * .fail-input-highlight {
+  border: 2px solid #a5b6c2;
+}
+
+.login-container .login-sign-up-form .label-icon-container label,
+.sign-up-container .login-sign-up-form .label-icon-container label {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 94.5%;
+}
+
+.login-container .login-sign-up-form .label-icon-container label input,
+.sign-up-container .login-sign-up-form .label-icon-container label input {
+  width: 62.6%;
+}
+
+.login-container .login-sign-up-form .label-icon-container .times-icon,
+.sign-up-container .login-sign-up-form .label-icon-container .times-icon {
+  color: #b9b4c1;
+}
+
+.login-container .login-sign-up-form .label-icon-container .check-icon,
+.sign-up-container .login-sign-up-form .label-icon-container .check-icon {
+  color: #a5b6c2;
+  margin-left: 3px;
+}
+
+.login-container .login-sign-up-form .submit,
+.sign-up-container .login-sign-up-form .submit {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  background-color: #323232;
+  color: #f5f1ed;
+  font-size: 1.2em;
+  height: 2rem;
+  margin-top: 20px;
+  cursor: pointer;
+  -webkit-transition: 0.2s all ease-in-out;
+  transition: 0.2s all ease-in-out;
+  outline: none;
+}
+
+.login-container .login-sign-up-form .submit:hover,
+.sign-up-container .login-sign-up-form .submit:hover {
+  color: #b9b4c1;
+}
+
+.login-container .login-sign-up-form .login-fail,
+.sign-up-container .login-sign-up-form .login-fail {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 0.8em;
+  font-weight: 600;
+  color: #a5b6c2;
+}
+
+.login-container .login-sign-up-form .password-length,
+.sign-up-container .login-sign-up-form .password-length {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 0.8em;
+  font-weight: 600;
+  color: #a5b6c2;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.login-container .link,
+.sign-up-container .link {
+  text-decoration: underline;
+  font-weight: 900;
+  color: #a5b6c2;
+  margin-top: 20px;
+}
+
+.login-container {
+  top: 60%;
+}
+
+.sign-up-container {
+  top: 70%;
+}
+/*# sourceMappingURL=LoginSignUp.css.map */

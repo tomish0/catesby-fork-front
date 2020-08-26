@@ -1,0 +1,32 @@
+@import "variables.scss";
+
+.single-item-add {
+  .search-input {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 20px auto;
+    height: 2rem;
+    width: 80%;
+    border: none;
+    padding: 5px;
+    font-family: main-font;
+    color: $color-black;
+    border-radius: 3px;
+    outline: none;
+  }
+  ::placeholder {
+    color: $color-grey;
+  }
+  .add-filter-results {
+    font-size: 0.9em;
+  }
+  .add-message {
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
+    color: $color-grey;
+    font-size: 1.1em;
+    font-weight: 700;
+  }
+}

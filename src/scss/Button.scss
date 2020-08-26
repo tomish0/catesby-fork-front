@@ -1,0 +1,15 @@
+@import "variables.scss";
+
+.button-comp {
+    background-color: $color-black;
+    border: none;
+    border-radius: 3px;
+    color: $color-pearl;
+    font-family: main-font;
+    font-size: 1.1em;
+    font-weight: 500;
+    height: 2rem;
+    cursor: pointer;
+    transition: 0.2s all ease-in-out;
+    outline: none;
+}

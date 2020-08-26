@@ -1,0 +1,68 @@
+.app-auth {
+  width: 80vw;
+}
+
+.app-auth .logo-title {
+  height: 43%;
+  -webkit-animation-name: moveLogo;
+          animation-name: moveLogo;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  -webkit-animation-timing-function: ease;
+          animation-timing-function: ease;
+}
+
+.app-auth .login-container-hidden {
+  opacity: 0;
+  -webkit-animation-name: showLogin;
+          animation-name: showLogin;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-delay: 4s;
+          animation-delay: 4s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes showLogin {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes showLogin {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes moveLogo {
+  0% {
+    height: 43%;
+  }
+  100% {
+    top: 30%;
+    height: 35%;
+  }
+}
+
+@keyframes moveLogo {
+  0% {
+    height: 43%;
+  }
+  100% {
+    top: 30%;
+    height: 35%;
+  }
+}
+/*# sourceMappingURL=Authentication.css.map */

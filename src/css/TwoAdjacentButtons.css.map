@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,oBAAoB,CAAC;EAEjB,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,YAAY;EAC7B,WAAW,EAAE,MAAM;EACnB,aAAa,EAAE,IAAI;CACpB",
+    "sources": [
+        "../scss/TwoAdjacentButtons.scss"
+    ],
+    "names": [],
+    "file": "TwoAdjacentButtons.css"
+}

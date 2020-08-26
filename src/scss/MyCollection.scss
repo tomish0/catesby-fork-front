@@ -1,0 +1,49 @@
+@import "variables.scss";
+
+.my-collection-container {
+  width: 100%;
+  min-height: calc(100vh - 46px);
+  padding: 10px 10px 60px 10px;
+  display: flex;
+  flex-direction: column;
+  h2 {
+    text-align: center;
+    margin: 10px auto;
+    color: $color-blue;
+  }
+  .back-btn {
+    display: flex;
+    font-size: 0.8em;
+    align-items: center;
+    background-color: $color-black;
+    border: none;
+    border-radius: 3px;
+    color: $color-pearl;
+    font-family: main-font;
+    height: 2rem;
+    cursor: pointer;
+    outline: none;
+    margin-bottom: 15px;
+    .icon {
+      color: $color-pearl;
+    }
+  }
+  .carousel-add-search-container {
+    min-height: 70vh;
+    .align-page-button {
+      display: flex;
+      justify-content: center;
+      font-size: 0.9em;
+      margin: 20px auto;
+    }
+    .center-page-button {
+      min-height: 70vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      .add-collection-btn {
+        font-size: 1em;
+      }
+    }
+  }
+}

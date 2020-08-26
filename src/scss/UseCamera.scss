@@ -1,0 +1,35 @@
+@import "variables.scss";
+
+.use-camera-container {
+  margin: 10px 0 10px 0;
+  .camera-container {
+      height: 50vh;
+      .react-html5-camera-photo {
+          height: 100%;
+          video {
+            height: 100%;
+            object-fit: cover;
+          }
+      }
+  }
+  .preview-image-container {
+    .preview-image {
+      position: relative;
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      height: 50vh;
+      border-radius: 3px;
+    }
+    .preview-btns {
+      display: flex;
+      justify-content: space-around;
+      width: 100%;
+      margin-top: 5px;
+      button {
+        background-color: $color-blue;
+        width: 30%;
+      }
+    }
+  }
+}

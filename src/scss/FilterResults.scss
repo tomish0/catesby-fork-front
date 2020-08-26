@@ -1,0 +1,29 @@
+@import "variables.scss";
+
+.filter-results-table {
+  font-size: 0.9em;
+  margin: 10px auto;
+  border-spacing: 3px;
+  min-width: 90vw;
+  tbody {
+    tr {
+      th {
+        color: $color-blue;
+        font-weight: 1000;
+        border-bottom: 1px solid $color-grey;
+        padding-bottom: 10px;
+      }
+      td {
+        border-bottom: 1px solid $color-grey;
+        min-height: 50px;
+        text-align: center;
+        padding: 8px 0 11px 0;
+      }
+      .filter-result-title {
+        font-weight: 700;
+        text-align: left;
+        text-decoration: underline;
+      }
+    }
+  }
+}

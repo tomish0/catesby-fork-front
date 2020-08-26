@@ -1,0 +1,31 @@
+@import "variables.scss";
+
+.single-item-container {
+  .buttons-single-item {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+
+  .estimated-value-container {
+    margin: 20px 5px 20px 5px;
+    .estimate-value {
+      font-size: 1.1em;
+      text-align: center;
+      span {
+        color: $color-blue;
+        font-weight: 800;
+      }
+    }
+    .estimate {
+      display: flex;
+      justify-content: center;
+      margin: 15px auto;
+      font-size: 0.8em;
+      .star-dash {
+        width: 15px;
+      }
+    }
+  }
+}

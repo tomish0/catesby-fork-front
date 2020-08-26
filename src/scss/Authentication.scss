@@ -1,0 +1,38 @@
+.app-auth {
+  width: 80vw;
+  .logo-title {
+    height: 43%;
+    animation-name: moveLogo;
+    animation-duration: 3s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease;
+  }
+  .login-container-hidden {
+    opacity: 0;
+    animation-name: showLogin;
+    animation-duration: 1s;
+    animation-delay: 4s;
+    animation-fill-mode: forwards;
+  }
+}
+
+@keyframes showLogin {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes moveLogo {
+  0% {
+    height: 43%;
+  }
+  100% {
+    top: 30%;
+    height: 35%;
+  }
+}
+

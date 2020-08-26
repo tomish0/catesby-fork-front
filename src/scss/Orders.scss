@@ -1,0 +1,10 @@
+@import "variables.scss";
+
+.orders-container {
+    padding: 10px 10px 60px 10px;
+    h2 {
+        text-align: center;
+        margin: 10px auto;
+        color: $color-blue;
+    }
+}

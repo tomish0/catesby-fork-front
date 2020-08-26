@@ -1,0 +1,48 @@
+@import "variables.scss";
+
+.app {
+  height: 100%;
+  width: 100%;
+  .login-container-hidden {
+    opacity: 0;
+  }
+  .logo-title {
+    position: absolute;
+    width: max-content;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    transition: 3s all ease;
+    .logo {
+      width: 50%;
+      transition: 3s all ease;
+    }
+    h1 {
+      font-family: title-font;
+      font-weight: 600;
+      letter-spacing: 10px;
+      color: $color-black;
+      margin: 5px -10px 0 0;
+      opacity: 0.9;
+      transition: 3s all ease;
+    }
+  }
+  .visible {
+    opacity: 1;
+    transition: opacity 1s linear;
+  }
+  .transform {
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    .logo {
+      width: 30%;
+    }
+    h1 {
+      font-size: 1.3em;
+    }
+  }
+}

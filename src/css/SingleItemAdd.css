@@ -1,0 +1,67 @@
+@font-face {
+  font-family: title-font;
+  src: adobe-caslon-pro, serif;
+}
+
+@font-face {
+  font-family: subtitle-font;
+  src: url("../fonts/HenriDidot.otf");
+}
+
+@font-face {
+  font-family: main-font;
+  src: url("../fonts/Montserrat-Light.ttf");
+}
+
+.single-item-add .search-input {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  margin: 20px auto;
+  height: 2rem;
+  width: 80%;
+  border: none;
+  padding: 5px;
+  font-family: main-font;
+  color: #323232;
+  border-radius: 3px;
+  outline: none;
+}
+
+.single-item-add ::-webkit-input-placeholder {
+  color: #b9b4c1;
+}
+
+.single-item-add :-ms-input-placeholder {
+  color: #b9b4c1;
+}
+
+.single-item-add ::-ms-input-placeholder {
+  color: #b9b4c1;
+}
+
+.single-item-add ::placeholder {
+  color: #b9b4c1;
+}
+
+.single-item-add .add-filter-results {
+  font-size: 0.9em;
+}
+
+.single-item-add .add-message {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 20px auto;
+  color: #b9b4c1;
+  font-size: 1.1em;
+  font-weight: 700;
+}
+/*# sourceMappingURL=SingleItemAdd.css.map */

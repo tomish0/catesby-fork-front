@@ -1,0 +1,61 @@
+@import "variables.scss";
+
+.my-collection-search {
+  font-size: 0.9em;
+  .search-input {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 20px auto;
+    height: 2rem;
+    width: 80%;
+    border: none;
+    padding: 5px;
+    font-family: main-font;
+    color: $color-black;
+    border-radius: 3px;
+    outline: none;
+  }
+  ::placeholder {
+    color: $color-grey;
+  }
+
+  .result-container {
+    display: flex;
+    width: 90%;
+    height: max-content;
+    margin: 10px auto;
+    border-bottom: 1px solid $color-grey;
+    padding-bottom: 10px;
+    .search-title-btn-container {
+      margin: 5px 0 0 5px;
+      font-size: 0.9em;
+      .filter-result-title {
+        margin: 0 0 5px 0;
+      }
+      .search-result-details-btn {
+        background-color: $color-blue;
+        height: 1.5rem;
+      }
+    }
+    .image-container {
+      height: max-content;
+      width: 100px;
+      border-radius: 10px;
+      img {
+        width: 100%;
+        border-radius: 10px;
+        box-shadow: 0px 0px 10px 0px $color-grey;
+      }
+    }
+  }
+
+  .search-no-match {
+    display: flex;
+    justify-content: center;
+    margin: 10px auto;
+    color: $color-blue;
+    font-weight: 700;
+    font-size: 1.1em;
+  }
+}

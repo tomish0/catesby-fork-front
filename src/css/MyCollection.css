@@ -1,0 +1,89 @@
+@font-face {
+  font-family: title-font;
+  src: adobe-caslon-pro, serif;
+}
+
+@font-face {
+  font-family: subtitle-font;
+  src: url("../fonts/HenriDidot.otf");
+}
+
+@font-face {
+  font-family: main-font;
+  src: url("../fonts/Montserrat-Light.ttf");
+}
+
+.my-collection-container {
+  width: 100%;
+  min-height: calc(100vh - 46px);
+  padding: 10px 10px 60px 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.my-collection-container h2 {
+  text-align: center;
+  margin: 10px auto;
+  color: #a5b6c2;
+}
+
+.my-collection-container .back-btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 0.8em;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #323232;
+  border: none;
+  border-radius: 3px;
+  color: #f5f1ed;
+  font-family: main-font;
+  height: 2rem;
+  cursor: pointer;
+  outline: none;
+  margin-bottom: 15px;
+}
+
+.my-collection-container .back-btn .icon {
+  color: #f5f1ed;
+}
+
+.my-collection-container .carousel-add-search-container {
+  min-height: 70vh;
+}
+
+.my-collection-container .carousel-add-search-container .align-page-button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 0.9em;
+  margin: 20px auto;
+}
+
+.my-collection-container .carousel-add-search-container .center-page-button {
+  min-height: 70vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.my-collection-container .carousel-add-search-container .center-page-button .add-collection-btn {
+  font-size: 1em;
+}
+/*# sourceMappingURL=MyCollection.css.map */

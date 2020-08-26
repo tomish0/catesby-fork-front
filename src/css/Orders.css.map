@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "ACAA,UAAU;EACR,WAAW,EAAE,UAAU;EACvB,GAAG,EAAE,uBAAuB;;;AAG9B,UAAU;EACR,WAAW,EAAE,aAAa;EAC1B,GAAG,EAAE,8BAA8B;;;AAGrC,UAAU;EACR,WAAW,EAAE,SAAS;EACtB,GAAG,EAAE,oCAAoC;;;ADV3C,AAAA,iBAAiB,CAAC;EACd,OAAO,EAAE,mBAAmB;CAM/B;;AAPD,AAEI,iBAFa,CAEb,EAAE,CAAC;EACC,UAAU,EAAE,MAAM;EAClB,MAAM,EAAE,SAAS;EACjB,KAAK,ECSA,OAAO;CDRf",
+    "sources": [
+        "../scss/Orders.scss",
+        "../scss/variables.scss"
+    ],
+    "names": [],
+    "file": "Orders.css"
+}
